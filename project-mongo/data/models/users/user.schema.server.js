@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const customerSchema = require('./customer.schema.server.js');
-const subscriberSchema = require('./subscriber.schema.server.js');
+const customerSchema = require('../customers/customer.schema.server.js');
+const subscriberSchema = require('../subscribers/subscriber.schema.server.js');
 
 userSchema = mongoose.Schema({
 	 _id: Number,
