@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="priyankachapala &lt;chapala.l@husky.neu.edu&gt;" />
+        <option value="Priyanka" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1aBTDHgQFQdBm2yCqk5Kv1sLoKT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project-mongo" />
+      <recent name="$PROJECT_DIR$/project-mongo/data/models/payments" />
+      <recent name="$PROJECT_DIR$/project-mongo/data/models/subscribers" />
+      <recent name="$PROJECT_DIR$/project-mongo/data/models/stations" />
+      <recent name="$PROJECT_DIR$/project-mongo/data/models/cost-of-trips" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="db.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="project-mongo/data/db.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="NODE_OPTIONS" value="--max-old-space-size=8192" />
+      </envs>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="" />
+      <created>1586207865609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586207865609</updated>
+      <workItem from="1586207869250" duration="120000" />
+      <workItem from="1586377478225" duration="73000" />
+      <workItem from="1586379525132" duration="860000" />
+      <workItem from="1586487976953" duration="34685000" />
+      <workItem from="1586812110679" duration="1040000" />
+      <workItem from="1586920626114" duration="5795000" />
+      <workItem from="1586981380317" duration="22279000" />
+      <workItem from="1587183493620" duration="170000" />
+      <workItem from="1587183746163" duration="85000" />
+      <workItem from="1587183915857" duration="32000" />
+      <workItem from="1587184140464" duration="822000" />
+      <workItem from="1587185407571" duration="1542000" />
+      <workItem from="1587229489068" duration="29000" />
+    </task>
+    <task id="LOCAL-00001" summary="added schemas">
+      <created>1586543520075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586543520075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added schemas">
+      <created>1586544472432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586544472432</updated>
+    </task>
+    <task id="LOCAL-00003" summary="db added">
+      <created>1587171830912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587171830913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="db added">
+      <created>1587181562495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587181562495</updated>
+    </task>
+    <task id="LOCAL-00005" summary="db added">
+      <created>1587184227858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587184227858</updated>
+    </task>
+    <task id="LOCAL-00006" summary="db added">
+      <created>1587185538563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587185538563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DataBase populated">
+      <created>1587186058498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587186058498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added schemas" />
+    <MESSAGE value="db added" />
+    <MESSAGE value="DataBase populated" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataBase populated" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586981816177">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586981816177" />
+    <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586569537023">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
+    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587186058383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587186058383" />
+    <state x="144" y="79" key="DiffContextDialog" timestamp="1586544491979">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1586544491979" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587181485523">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587181485523" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587181485522">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587181485522" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587181485521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587181485521" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587181485523">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587181485523" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586724365954">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586724365954" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1586724365953">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586724365953" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1586724365953">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586724365953" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1586724365954">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586724365954" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1586724365955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586724365955" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center" timestamp="1586724365955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1586724365955" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left" timestamp="1586724365954">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1586724365954" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right" timestamp="1586724365955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1586724365955" />
+    <state width="1398" height="303" key="GridCell.Tab.3.bottom" timestamp="1586724365956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586724365956" />
+    <state width="1398" height="303" key="GridCell.Tab.3.center" timestamp="1586724365956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1586724365956" />
+    <state width="1398" height="303" key="GridCell.Tab.3.left" timestamp="1586724365956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1586724365956" />
+    <state width="1398" height="303" key="GridCell.Tab.3.right" timestamp="1586724365956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1586724365956" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1586542320378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586542320378" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587186129634">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587186129634" />
+    <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587185603734">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="348" y="191" key="VcsDiffUtil.ChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587185603734" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587185962271">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1587185962271" />
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1586981380531">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586981380531" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587085069110">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587085069110" />
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1586543088393">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1586543088393" />
+    <state x="426" y="323" key="git4idea.rebase.GitRebaseDialog" timestamp="1587173677546">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="426" y="323" key="git4idea.rebase.GitRebaseDialog/0.0.1440.900@0.0.1440.900" timestamp="1587173677546" />
+    <state x="443" y="356" key="git4idea.ui.GitStashDialog" timestamp="1587231675267">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="443" y="356" key="git4idea.ui.GitStashDialog/0.0.1440.900@0.0.1440.900" timestamp="1587231675267" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586714016176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586714016176" />
+  </component>
+</project>
