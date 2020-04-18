@@ -1,8 +1,12 @@
-module.exports = function () {
-    const mongoose = require('mongoose');
-    const databaseName = 'whiteboard';
-    var   connectionString =
-        'mongodb://localhost/';
-    connectionString += databaseName;
-    mongoose.connect(connectionString);
-};
+const mongoose =require('mongoose')
+mongoose.connect('mongodb+srv://priyankachapala:2004Priyanka@project-ssy8s.mongodb.net/project',{useNewUrlParser: true, useUnifiedTopology: true})
+
+const managementdao=require('./daos/management.dao.server')
+
+//managementdao.populateusers();
+
+//managementdao.populatestations();
+
+managementdao.populatepayments();
+
+//managementdao.populatetrips();

@@ -11,7 +11,7 @@ const costoftripSchmea=mongoose.Schema({
         ref: 'PaymentModel'
     },
     user:{
-        type: mongoose.Schmea.Types.Number,
+        type: mongoose.Schema.Types.Number,
         ref: 'UserModel'
     },
     ammount: Number

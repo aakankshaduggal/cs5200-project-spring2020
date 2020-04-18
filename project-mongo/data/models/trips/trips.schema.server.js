@@ -11,6 +11,8 @@ const tripSchema=mongoose.Schema({
     start_time: Date,
     stop_time: Date,
     trip_duration: Number,
+    temperature: Number,
+    event: String,
     user : {
         type : mongoose.Schema.Types.Number,
         ref : 'UserModel'

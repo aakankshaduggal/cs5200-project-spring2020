@@ -6,7 +6,7 @@ userSchema = mongoose.Schema({
 	 _id: Number,
 	 gender: String,
 	 phoneNumber: Number,
-	 userType: {type: String, enum: ['CUSTOMER', 'SUBSCRIBER']},
+	 userType: {type: String, enum: ["Subscriber", "Customer"]},
 	 customer: customerSchema,
 	 subscriber: subscriberSchema
 	}, {collection: 'users'});

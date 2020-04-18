@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 
-const customerSchema = mongoose.Schema({
+const subscriberSchema = mongoose.Schema({
     
 	subscriptionPlan: String,
     OccupationType: {type: String, enum: ['STUDENT', 'DOCTOR', 'ENGINEER', 'ARCHITECT', 'LAWYER']}
 
-});
-module.exports = customerSchema;
+},{collection :'subscribers'})
+
+module.exports = subscriberSchema;
