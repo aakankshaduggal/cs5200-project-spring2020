@@ -25,8 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="Controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1aBTDHgQFQdBm2yCqk5Kv1sLoKT" />
   <component name="ProjectLevelVcsManager">
@@ -88,13 +86,20 @@
       <recent name="$PROJECT_DIR$/project-mongo/data/models/cost-of-trips" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="db.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="project-mongo/data/db.js" working-dir="$PROJECT_DIR$">
       <envs>
         <env name="NODE_OPTIONS" value="--max-old-space-size=8192" />
       </envs>
       <method v="2" />
     </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="project-mongo/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.db.js" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -119,7 +124,8 @@
       <workItem from="1587184140464" duration="822000" />
       <workItem from="1587185407571" duration="1542000" />
       <workItem from="1587229489068" duration="29000" />
-      <workItem from="1587231753627" duration="353000" />
+      <workItem from="1587231753627" duration="12443000" />
+      <workItem from="1587309571367" duration="24748000" />
     </task>
     <task id="LOCAL-00001" summary="added schemas">
       <created>1586543520075</created>
@@ -184,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587231940132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added gitignore">
+      <created>1587232129724</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587232129724</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Controllers added">
+      <created>1587403421875</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587403421875</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,44 +307,51 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="added schemas" />
     <MESSAGE value="db added" />
     <MESSAGE value="DataBase populated" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataBase populated" />
+    <MESSAGE value="Added gitignore" />
+    <MESSAGE value="Controllers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586981816177">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587264189751">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586981816177" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587264189751" />
+    <state x="440" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587403664754">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="440" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587403664754" />
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586569537023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
-    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587231940015">
+    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587403421022">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587231940015" />
-    <state x="144" y="79" key="DiffContextDialog" timestamp="1586544491979">
+    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587403421022" />
+    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1587403715144">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1586544491979" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587181485523">
+    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403715144" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1587403342141">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587181485523" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587181485522">
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587403342141" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1587403342139">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587181485522" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587181485521">
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587403342139" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1587403342138">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587181485521" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587181485523">
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587403342138" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1587403342140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587181485523" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587403342140" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586724365954">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -373,14 +400,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1586724365956" />
+    <state x="389" y="159" key="RollbackChangesDialog" timestamp="1587403454884">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="389" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403454884" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1586542320378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586542320378" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587231952314">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587403676288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587231952314" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587403676288" />
     <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587185603734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -397,10 +428,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587085069110" />
-    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1586543088393">
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1587403579839">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1586543088393" />
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403579839" />
     <state x="426" y="323" key="git4idea.rebase.GitRebaseDialog" timestamp="1587173677546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
