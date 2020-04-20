@@ -7,6 +7,8 @@ const managementdao=require('./daos/management.dao.server')
 
 //managementdao.populatestations();
 
-managementdao.populatepayments();
+//managementdao.populatepayments();
 
 //managementdao.populatetrips();
+
+managementdao.deleteuser();
