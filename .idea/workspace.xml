@@ -25,8 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="Controller">
+    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="Added Queries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/controllers/costoftrips.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/controllers/costoftrips.controller.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/cost-of-trips.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/cost-of-trips.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/payments.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/payments.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/stations.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/stations.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/trips.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/trips.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/user.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/user.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +134,7 @@
       <workItem from="1587229489068" duration="29000" />
       <workItem from="1587231753627" duration="12443000" />
       <workItem from="1587309571367" duration="24748000" />
+      <workItem from="1587411465779" duration="11650000" />
     </task>
     <task id="LOCAL-00001" summary="added schemas">
       <created>1586543520075</created>
@@ -208,7 +217,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -277,15 +286,10 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-        <entry key="2" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -303,7 +307,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -313,7 +316,8 @@
     <MESSAGE value="DataBase populated" />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Controllers added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controllers added" />
+    <MESSAGE value="Added Queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Queries" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587264189751">
@@ -328,30 +332,35 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
-    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587403421022">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="230" y="16" key="CommitChangelistDialog2" timestamp="1587443948698">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587403421022" />
+    <state x="230" y="16" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587443948698" />
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1587403715144">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403715144" />
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1587403342141">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1493" height="6" key="GridCell.Tab.0.bottom" timestamp="1587443594032">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587403342141" />
-    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1587403342139">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1493" height="6" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587443594032" />
+    <state width="1493" height="6" key="GridCell.Tab.0.center" timestamp="1587443594032">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587403342139" />
-    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1587403342138">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1493" height="6" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587443594032" />
+    <state width="1493" height="6" key="GridCell.Tab.0.left" timestamp="1587443594031">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587403342138" />
-    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1587403342140">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1493" height="6" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587443594031" />
+    <state width="1493" height="6" key="GridCell.Tab.0.right" timestamp="1587443594032">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587403342140" />
+    <state width="1493" height="6" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587443594032" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586724365954">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -420,10 +429,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1587185962271" />
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1586981380531">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="399" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1587411465770">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586981380531" />
+    <state x="399" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587411465770" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587085069110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

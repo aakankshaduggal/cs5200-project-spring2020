@@ -1,5 +1,5 @@
-const userModel= require('../models/users/user.model.server')
-const mongoose =require('mongoose')
+const userModel= require('../models/users/user.model.server');
+//const mongoose =require('mongoose');
 const createuser =(user) =>
     userModel.create(user);
 
@@ -10,7 +10,15 @@ const examinerole =(id) =>
     userModel.findOne({_id:id});
 
 const findallusers=()=>
-    userModel.find()
+    userModel.find();
+
+const findCountGenders = () =>
+    userModel.aggregate([{
+        $group : {
+            count : {_id :"gender"}
+        }
+    }]);
+
 
 const findammount=(id)=> {
     var pipeline = "[{$lookup: {from: 'trips', localField: '_id', foreignField: 'user', " +
@@ -19,10 +27,15 @@ const findammount=(id)=> {
         id + "}}]";
 
     return userModel.aggregate(eval(pipeline))
-}
+};
 
 const deleteuser=(id)=>
-    userModel.remove({_id: id})
+    userModel.remove({_id: id});
+
+const updateUser = (id, userType) =>{
+    userModel.findByIdAndUpdate({id}, {$set : {userType : userType}})
+};
+
 
 module.exports={
     createuser,
@@ -30,5 +43,7 @@ module.exports={
     examinerole,
     findallusers,
     findammount,
-    deleteuser
-}
+    deleteuser,
+    updateUser,
+    findCountGenders
+};
