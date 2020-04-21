@@ -11,4 +11,6 @@ const managementdao=require('./daos/management.dao.server')
 
 //managementdao.populatetrips();
 
-managementdao.deleteuser();
+//managementdao.deleteuser();
+
+managementdao.populatecustomer();

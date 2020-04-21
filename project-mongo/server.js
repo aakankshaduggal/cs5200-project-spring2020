@@ -25,6 +25,6 @@ app.set('json spaces', 10)
 require('./data/controllers/user.controller.server')(app)
 require('./data/controllers/stations.controller.server')(app)
 require('./data/controllers/trip.controller.server')(app)
-
+require('./data/controllers/costoftrips.controller.server')(app)
 // start server listening at port 3000 for HTTP requests
 app.listen(4000)
