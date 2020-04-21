@@ -4,16 +4,11 @@ const createstation=(station) => stationModel.create(station);
 
 const findallstations =() => stationModel.find();
 
-const findStationByName = (stationName) =>{
-    stationModel.findOne({name : stationName})
-};
-const findStationById = (stationId) => {
-    stationModel.findById(stationId)
-};
+const updatestation=(id) => stationModel.update({_id : id},{$inc : { dpcapacity: -1} });
+
 
 module.exports={
     createstation,
     findallstations,
-    findStationByName,
-    findStationById
-};
+    updatestation
+}

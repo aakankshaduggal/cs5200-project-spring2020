@@ -1,8 +1,7 @@
-const mongoose =require('mongoose');
-mongoose.connect('mongodb+srv://priyankachapala:2004Priyanka@project-ssy8s.mongodb.net/project',{useNewUrlParser: true, useUnifiedTopology: true});
+const mongoose =require('mongoose')
+mongoose.connect('mongodb+srv://priyankachapala:2004Priyanka@project-ssy8s.mongodb.net/project',{useNewUrlParser: true, useUnifiedTopology: true})
 
-console.log("connected");
-//const managementdao=require('./daos/management.dao.server')
+const managementdao=require('./daos/management.dao.server')
 
 //managementdao.populateusers();
 
@@ -13,3 +12,5 @@ console.log("connected");
 //managementdao.populatetrips();
 
 //managementdao.deleteuser();
+
+managementdao.populatecustomer();

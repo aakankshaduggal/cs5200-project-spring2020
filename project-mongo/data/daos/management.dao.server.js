@@ -153,12 +153,24 @@ const deleteuser=()=> {
             .then(status => console.log(status));
     }
 
+}
+
+customer=[0, 2, 3, 5, 6, 13, 14, 17, 21, 22, 23, 26, 30, 31, 35, 38, 40, 41, 43, 45, 48, 55, 62]
+const populatecustomer=()=>{
+
+    for(i=0; i<customer.length; i++){
+        userdao.createuser({_id: customer[i], gender: "Male", phoneNumber: Math.floor(1000000000 + Math.random() * 9000000000), userType: "Customer",
+            customer: {isTourist: true}});
+
+    }
 
 }
+
 module.exports={
     populateusers,
     populatestations,
     populatepayments,
     populatetrips,
-    deleteuser
+    deleteuser,
+    populatecustomer
 }
