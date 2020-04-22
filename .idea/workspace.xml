@@ -19,14 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="" />
+    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587572115229</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Reverting wrong merge and added the finish rid files">
+      <created>1587572202015</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587572202015</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,30 +351,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
-    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587572115094">
+    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587572201931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587572115094" />
-    <state x="805" y="0" width="635" height="900" key="DiffContextDialog" timestamp="1587572186899">
+    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587572201931" />
+    <state x="227" y="1" width="1089" height="900" key="DiffContextDialog" timestamp="1587573329259">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="351" y="0" width="1089" height="900" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587573264963" />
+    <state x="227" y="1" width="1089" height="900" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1587573329259" />
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom" timestamp="1587576291679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="805" y="0" width="635" height="900" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587572186899" />
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1587403342141">
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587576291679" />
+    <state width="1398" height="324" key="GridCell.Tab.0.center" timestamp="1587576291678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587403342141" />
-    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1587403342139">
+    <state width="1398" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587576291678" />
+    <state width="1398" height="324" key="GridCell.Tab.0.left" timestamp="1587576291677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587403342139" />
-    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1587403342138">
+    <state width="1398" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587576291677" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right" timestamp="1587576291678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587403342138" />
-    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1587403342140">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587403342140" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587576291678" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586724365954">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -419,22 +428,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="608" y="324" width="443" height="252" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587572160237" />
-    <state x="389" y="159" key="RollbackChangesDialog" timestamp="1587403454884">
+    <state x="389" y="159" key="RollbackChangesDialog" timestamp="1587573307524">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="389" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403454884" />
+    <state x="389" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587573307524" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1586542320378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586542320378" />
-    <state x="357" y="133" key="Vcs.Push.Dialog.v2" timestamp="1587572140764">
+    <state x="357" y="133" key="Vcs.Push.Dialog.v2" timestamp="1587572204362">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="357" y="133" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587572140764" />
-    <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587185603734">
+    <state x="357" y="133" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587572204362" />
+    <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587573300655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="191" key="VcsDiffUtil.ChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587185603734" />
+    <state x="348" y="191" key="VcsDiffUtil.ChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587573300655" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587185962271">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
