@@ -24,11 +24,22 @@ const findammount=(id)=> {
 const deleteuser=(id)=>
     userModel.remove({_id: id})
 
+const updatesubscriberplan=(id,plan,ocuupation)=>
+    userModel.update({_id:id}, {$set:{subscriber: { subscriptionPlan: plan,
+                OccupationType: ocuupation}}})
+
+const updatesubscribertocustomer =(id)=>
+    userModel.update({_id: id}, {$unset: {subscriber: 1}})
+        .then(res=> userModel.update({_id: id},{$set: {userType: "Customer"}}))
+
+
 module.exports={
     createuser,
     finduser,
     examinerole,
     findallusers,
     findammount,
-    deleteuser
+    deleteuser,
+    updatesubscriberplan,
+    updatesubscribertocustomer
 }

@@ -19,14 +19,20 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="Controller">
+    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/controllers/stations.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/controllers/stations.controller.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/controllers/user.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/controllers/user.controller.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/cost-of-trips.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/cost-of-trips.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/trips.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/trips.dao.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/user.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/user.dao.server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +131,7 @@
       <workItem from="1587185407571" duration="1542000" />
       <workItem from="1587229489068" duration="29000" />
       <workItem from="1587231753627" duration="12443000" />
-      <workItem from="1587309571367" duration="24748000" />
+      <workItem from="1587309571367" duration="56266000" />
     </task>
     <task id="LOCAL-00001" summary="added schemas">
       <created>1586543520075</created>
@@ -204,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587403421875</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed pull issues">
+      <created>1587403746216</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587403746216</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Controllers for Customer and Subscriber Dashboard">
+      <created>1587440054452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587440054453</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +291,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -313,7 +333,9 @@
     <MESSAGE value="DataBase populated" />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Controllers added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controllers added" />
+    <MESSAGE value="fixed pull issues" />
+    <MESSAGE value="Added Controllers for Customer and Subscriber Dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Controllers for Customer and Subscriber Dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587264189751">
@@ -328,30 +350,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
-    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587403421022">
+    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587440054329">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587403421022" />
+    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587440054329" />
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1587403715144">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403715144" />
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1587403342141">
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom" timestamp="1587513030149">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587403342141" />
-    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1587403342139">
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587513030149" />
+    <state width="1398" height="324" key="GridCell.Tab.0.center" timestamp="1587513030148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587403342139" />
-    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1587403342138">
+    <state width="1398" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587513030148" />
+    <state width="1398" height="324" key="GridCell.Tab.0.left" timestamp="1587513030147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587403342138" />
-    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1587403342140">
+    <state width="1398" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587513030147" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right" timestamp="1587513030149">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587403342140" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587513030149" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586724365954">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -408,10 +430,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586542320378" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587403676288">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587440059505">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587403676288" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587440059505" />
     <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587185603734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -428,10 +450,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587085069110" />
-    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1587403579839">
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1587530086719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403579839" />
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1587530086719" />
     <state x="426" y="323" key="git4idea.rebase.GitRebaseDialog" timestamp="1587173677546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
