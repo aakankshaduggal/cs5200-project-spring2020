@@ -7,8 +7,13 @@ const totalammount=()=>costoftripModel.aggregate([{$group: {
         sum:  {$sum : "$ammount"}
 
     }}])
+const findlastid=()=> {
+    return costoftripModel.findOne().sort({_id: -1}).limit(1)
+}
 
 module.exports={
     createcostoftrip,
-    totalammount
+    totalammount,
+    costoftripModel,
+    findlastid
 }
