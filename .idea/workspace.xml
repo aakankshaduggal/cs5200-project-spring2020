@@ -26,13 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project-mongo/data/controllers/costoftrips.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/controllers/costoftrips.controller.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-mongo/data/controllers/stations.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/controllers/stations.controller.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-mongo/data/controllers/user.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/controllers/user.controller.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/cost-of-trips.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/cost-of-trips.dao.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-mongo/data/daos/trips.dao.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-mongo/data/daos/trips.dao.server.js" afterDir="false" />
-    </list>
+    <list default="true" id="71dd34a6-3149-4f14-ad2f-7bffd8f0cdbc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587571585829</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Reverting wrong merge and added the finish rid files">
+      <created>1587572115229</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587572115229</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +327,8 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Controllers added" />
     <MESSAGE value="Reverting wrong merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverting wrong merge" />
+    <MESSAGE value="Reverting wrong merge and added the finish rid files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverting wrong merge and added the finish rid files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587264189751">
@@ -341,14 +343,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
-    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587571585739">
+    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587572115094">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587571585739" />
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1587571871043">
+    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587572115094" />
+    <state x="805" y="0" width="635" height="900" key="DiffContextDialog" timestamp="1587572186899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587571871043" />
+    <state x="805" y="0" width="635" height="900" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587572186899" />
     <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1587403342141">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -413,6 +415,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1586724365956" />
+    <state x="608" y="324" width="443" height="252" key="MultipleFileMergeDialog" timestamp="1587572160237">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="608" y="324" width="443" height="252" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587572160237" />
     <state x="389" y="159" key="RollbackChangesDialog" timestamp="1587403454884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -421,10 +427,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586542320378" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587571621637">
+    <state x="357" y="133" key="Vcs.Push.Dialog.v2" timestamp="1587572140764">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587571621637" />
+    <state x="357" y="133" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587572140764" />
     <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587185603734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
