@@ -19,8 +19,9 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587572202015</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Final Commit with all changes">
+      <created>1587587171112</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587587171113</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +300,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -336,7 +344,8 @@
     <MESSAGE value="Controllers added" />
     <MESSAGE value="Reverting wrong merge" />
     <MESSAGE value="Reverting wrong merge and added the finish rid files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverting wrong merge and added the finish rid files" />
+    <MESSAGE value="Final Commit with all changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit with all changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587264189751">
@@ -351,31 +360,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586569537023" />
-    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587572201931">
+    <state x="216" y="51" key="CommitChangelistDialog2" timestamp="1587587170988">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587572201931" />
+    <state x="216" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587587170988" />
     <state x="227" y="1" width="1089" height="900" key="DiffContextDialog" timestamp="1587573329259">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="351" y="0" width="1089" height="900" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1587573264963" />
     <state x="227" y="1" width="1089" height="900" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1587573329259" />
-    <state width="1398" height="324" key="GridCell.Tab.0.bottom" timestamp="1587576291679">
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom" timestamp="1587919479823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587576291679" />
-    <state width="1398" height="324" key="GridCell.Tab.0.center" timestamp="1587576291678">
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587919479823" />
+    <state width="1398" height="324" key="GridCell.Tab.0.center" timestamp="1587919479822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587576291678" />
-    <state width="1398" height="324" key="GridCell.Tab.0.left" timestamp="1587576291677">
+    <state width="1398" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587919479822" />
+    <state width="1398" height="324" key="GridCell.Tab.0.left" timestamp="1587919479821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587576291677" />
-    <state width="1398" height="324" key="GridCell.Tab.0.right" timestamp="1587576291678">
+    <state width="1398" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587919479821" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right" timestamp="1587919479822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587576291678" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587919479822" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586724365954">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -436,10 +445,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586542320378" />
-    <state x="357" y="133" key="Vcs.Push.Dialog.v2" timestamp="1587572204362">
+    <state x="357" y="133" key="Vcs.Push.Dialog.v2" timestamp="1587587317351">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="357" y="133" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587572204362" />
+    <state x="357" y="133" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587587317351" />
     <state x="348" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1587573300655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -456,10 +465,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587085069110" />
-    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1587403579839">
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog" timestamp="1587587228893">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1587403579839" />
+    <state x="342" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1587587228893" />
     <state x="426" y="323" key="git4idea.rebase.GitRebaseDialog" timestamp="1587173677546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
